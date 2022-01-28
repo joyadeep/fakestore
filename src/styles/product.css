@@ -1,0 +1,80 @@
+.product-container
+{
+    width: 80vw;
+    padding-bottom: 40px;
+    height: fit-content;
+    box-shadow: 5px 5px 10px rgb(240, 240, 240);
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 5px;
+    /* background-color: rgb(194, 253, 255); */
+    margin: 20px  auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+.product-detail-left
+{
+    flex: 1;
+    /* border: 2px solid white; */
+}
+.product-detail-left img{
+    width: 90%;
+    padding-left: 20px;
+    padding-top: 10px;
+    height: 350px;
+}
+.product-detail-right
+{
+    /* border: 2px solid white; */
+    flex: 1;
+    padding-top: 10px;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+.product-detail-right div{
+    margin-top: 20px;
+}
+.product-detail-right .title{
+    font-size: 20px;
+}
+.product-detail-right .description{
+    font-size: 18px;
+}
+.product-detail-right .price{
+    font-size: 22px;
+}
+.buttons
+{
+    /* border: 2px solid black; */
+    width: 70%;
+    /* margin: 0 auto; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+
+}
+.buttons input{
+    border: none;
+    width: 45%;
+    height: 55px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+.buttons .buy-button{
+    background-color: rgb(39, 39, 218) ;
+}
+.buttons .buy-button:hover
+{
+    background-color: rgb(64, 64, 255) ;
+}
+
+.buttons .add-to-cart
+{
+    background-color: rgb(18, 124, 18);
+}
+
+.buttons .add-to-cart:hover{
+    background-color: rgb(27, 141, 27);
+}
