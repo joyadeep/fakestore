@@ -24,7 +24,6 @@
     transition: 0.5s all;
 }
 .product:hover{
-    /* font-weight: 400; */
     transform: scale(1.05);
     box-shadow: 5px 5px 5px rgb(226, 226, 226);
     transition: 0.5s all;
