@@ -1,12 +1,11 @@
 import React, { useEffect } from 'react';
-import axios from 'axios';
 import {fetch_all_products} from '../Redux/action/index';
 import {useSelector,useDispatch} from 'react-redux';
 import {Link} from 'react-router-dom';
 import "../styles/productlist.css";
 
 export const ProductList = () => {
-  const products=useSelector((state)=>state.cartReducer.products);
+  const products=useSelector((state)=>state.itemReducer.products);
   
   const dispatch=useDispatch();
  

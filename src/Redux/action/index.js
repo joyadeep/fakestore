@@ -14,3 +14,19 @@ export const fetch_all_products=()=>{
      }
     
     }
+
+
+
+export const add_to_cart=(product)=>{
+    return {
+        type: "ADD_TO_CART",
+        product
+    }
+}
+
+export const remove_from_cart=(id)=>{
+    return{
+        type:"REMOVE_FROM_CART",
+        id
+    }
+}

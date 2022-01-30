@@ -69,10 +69,20 @@
 {
     background-color: rgb(64, 64, 255) ;
 }
+.buttons .buy-button:active
+{
+    /* background-color:rgb(100, 100, 255); */
+    transform: scale(0.9);
+    /* transition: 0.9s; */
+}
 
 .buttons .add-to-cart
 {
     background-color: rgb(18, 124, 18);
+}
+.buttons .add-to-cart:active
+{
+    transform: scale(0.9);
 }
 
 .buttons .add-to-cart:hover{

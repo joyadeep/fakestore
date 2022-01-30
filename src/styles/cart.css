@@ -1,0 +1,225 @@
+.cart-container
+{
+   width: 100vw;
+   height: fit-content;
+   /* background-color: rgb(244, 237, 252);  */
+   margin: 10px auto 50px auto;
+   
+   /* row-gap: 30px; */
+
+}
+.head
+{
+    font-size: 35px;
+    font-weight: 600;
+    height: 80px;
+    background-color: rgb(245, 245, 245);
+    /* border: 1px solid black; */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+}
+.empty
+{
+    margin-top: 70px;
+    /* height: 400px; */
+    font-weight: 600;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.cart-body
+{
+    display: flex;
+    /* border: 1px solid ; */
+    width: 90%;
+    margin: 30px auto 0 auto;
+    column-gap: 20px;
+}
+
+.product-cart
+{
+    flex: 8;
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(235, 235, 235);
+    height: fit-content;
+    width: 90%;
+    margin: 0 auto;
+}
+.cart-product-left
+{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    /* column-gap: 10px; */
+    /* border-radius: 5px; */
+    flex-direction: row;
+    /* box-shadow: 5px 5px 10px rgb(238, 238, 238); */
+    /* border: 1px solid rgb(238, 238, 238); */
+    /* margin-bottom: 10px; */
+}
+.btn-remove{
+    cursor: pointer;
+    width: 85px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    /* background-color: rgb(250, 152, 152); */
+    color: black;
+    background-color: white;
+    border: 1px solid rgb(231, 231, 231);
+}
+.btn-remove:hover
+{
+    background-color: rgb(255, 80, 80);
+    color: white;
+}
+.btn-remove:active
+{
+    transform: scale(0.9);
+    /* background-color: rgb(240, 100, 95); */
+}
+
+
+.product-image
+{
+    flex: 2;
+    text-align: center;
+    /* border: 1px solid; */
+}
+.product-image img
+{
+    /* border: 2px solid; */
+    width: 70px;
+    height: 70px;
+}
+
+.product-title
+{
+    margin-right: 15px;
+    /* border: 1px solid; */
+    font-size: 18px;
+    /* text-align: justify; */
+    flex: 6;
+}
+.product-price
+{
+    font-size: 18px;
+    font-weight: 600;
+    /* border: 1px solid; */
+    flex: 2;
+}
+.product-remove
+{
+    /* border: 1px solid; */
+    flex: 2;
+}
+
+
+.checkout{
+    height:fit-content;
+    /* border: 1px solid rgb(228, 228, 228); */
+    flex: 4;
+    row-gap: 10px;
+    display: flex;
+    flex-direction: column;
+    /* box-shadow: 5px 5px 10px rgb(233, 233, 233); */
+    /* border: 1px solid rgb(236, 236, 236); */
+}
+.coupon
+{
+    /* margin-left: auto; */
+    border-radius: 5px;
+    border: 1px solid rgb(233, 233, 233);
+    padding:20px 0 20px 30px;
+}
+.coupon-text
+{
+    /* border: 1px solid; */
+    /* width: fit-content; */
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.coupon input
+{
+    border: none;
+    /* height: 30px; */
+}
+.coupon input[type="text"]
+{
+    height: 35px;
+    background-color: rgb(236, 236, 236);
+    width: 50%;
+    outline: none;
+    font-size: 20px;
+    padding-left: 10px;
+    border-radius: 5px 0 0 5px;
+    /* border: 1px solid rgb(228, 228, 228); */
+    
+}
+.coupon input[type="button"]
+{
+    cursor: pointer;
+    height: 37px;
+    display: inline-block;
+    font-size: 20px;
+    border-radius:0 5px 5px 0;
+    color: white;
+    width: 70px;
+    background-color: rgb(47, 108, 240);
+}
+.coupon input[type="button"]:hover{
+    background-color: rgb(73, 131, 255);
+}
+.coupon input[type="button"]:active
+{
+    background-color: rgb(46, 112, 255);
+}
+.payout
+{
+    /* padding-left: 10px; */
+    box-shadow: none;
+    /* border: 1px solid; */
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.payout-amt
+{
+    font-size: 20px;
+    width: 90%;
+    margin: 0 auto 3px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.payout input[type="button"]
+{
+    cursor: pointer;
+    border: none;
+    font-size: 22px;
+    background-color: rgb(0, 153, 38);
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    margin: 20px auto 0 auto;
+    
+}
+.payout input[type="button"]:hover{
+    background-color: rgb(0, 110, 28) ;
+}
+
+.payout input[type="button"]:active
+{
+    transform: scale(0.9);
+}
