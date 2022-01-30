@@ -7,7 +7,7 @@ export const Header = () => {
   return <>
   <section className="header">
     <div className="name">
-      <Link to="/" style={{textDecoration:"none",color:"white"}}>
+      <Link to="/fakestore" style={{textDecoration:"none",color:"white"}}>
     FakeStore
       </Link>
     </div>
